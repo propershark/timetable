@@ -1,0 +1,7 @@
+%{"csv": {:hex, :csv, "1.4.3", "de92e2bc85bc09ec676f19f6ec2daa59ba1f0103d1da96cf0cca36342c90d93f", [:mix], [{:parallel_stream, "~> 1.0.4", [hex: :parallel_stream, optional: false]}]},
+  "gtfs": {:hex, :gtfs, "0.3.1", "2c69e0daf6f7a85018669851bf2dc225e8d16b8e0b618579bea48560c5faad2d", [:mix], [{:csv, "~> 1.4.0", [hex: :csv, optional: false]}]},
+  "msgpax": {:hex, :msgpax, "0.8.2", "0e83d86e7cbf1bdcf7b870c25951df042ec19f9804a1a9c2fa59091a43ee2886", [:mix], []},
+  "parallel_stream": {:hex, :parallel_stream, "1.0.5", "4c78d3e675f9eff885cbe252c89a8fc1d2fb803c0d03a914281e587834e09431", [:mix], []},
+  "poison": {:hex, :poison, "1.4.0", "cd5afb9db7f0d19487572fa28185b6d4de647f14235746824e77b3139b79b725", [:mix], []},
+  "spell": {:hex, :spell, "0.1.0", "a5214cfcb67fbe264884d46d699c90e384fb5785fe4765c6357e03a2f808c0dd", [:mix], [{:msgpax, "~> 0.7", [hex: :msgpax, optional: false]}, {:poison, "~> 1.4.0", [hex: :poison, optional: false]}]},
+  "websocket_client": {:git, "https://github.com/jeremyong/websocket_client.git", "f465f229958293949e4a192bea65a7e47bb2f762", [tag: "v0.7"]}}

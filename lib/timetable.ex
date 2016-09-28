@@ -1,0 +1,2 @@
+defmodule Timetable do
+end
