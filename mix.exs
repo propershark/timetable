@@ -2,7 +2,7 @@ defmodule Timetable.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :chronometer,
+    [app: :timetable,
      version: "0.1.0",
      elixir: "~> 1.3",
      build_embedded: Mix.env == :prod,
@@ -14,7 +14,8 @@ defmodule Timetable.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:logger]]
+    [applications: [:logger],
+     mod: {Timetable, []}]
   end
 
   # Dependencies can be Hex packages:

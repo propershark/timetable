@@ -28,3 +28,7 @@ use Mix.Config
 # here (which is why it is important to import them last).
 #
 #     import_config "#{Mix.env}.exs"
+
+config :timetable,
+  wamp_uri:   "ws://shark-nyc1.transio.us:8080/ws/",
+  wamp_realm: "realm1"
